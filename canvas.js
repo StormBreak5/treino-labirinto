@@ -10,6 +10,7 @@ function setup() {
     createCanvas(400, 400);
     cols = floor(width/w);
     rows = floor(height/w);
+    frameRate(60);
 
     for (var j=0; j < rows; j++) {
         for (var i = 0; i < cols; i++) {

@@ -1,0 +1,14 @@
+.button {
+    width: 50%;
+    margin: 0 0 10px 0;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
